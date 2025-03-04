@@ -11,7 +11,7 @@ func main() {
 	InputCollector("Tax Rate", &taxRate)
 
 	ebt, eat, ratio := Earnings(revenue, expense, taxRate)
-	fmt.Printf("Earnings Before Tax : %v\nEarning After Tax : %v\nRatio : %v", ebt, eat, ratio)
+	fmt.Printf("Earnings Before Tax : %.2f\nEarning After Tax : %.2f\nRatio : %.2f\n", ebt, eat, ratio)
 
 }
 
